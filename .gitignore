@@ -1,0 +1,15 @@
+__pycache__/
+    *.pyc
+    .venv/
+    venv/
+    .env
+    data/raw/
+    data/processed/
+    *.pkl
+    *.pt
+    *.h5
+    .ipynb_checkpoints/
+    mlruns/
+    wandb/
+    main.py
+    .vscode
