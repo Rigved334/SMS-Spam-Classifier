@@ -6,7 +6,7 @@ readme = "README.md"
 authors = [
     { name = "Rigved334", email = "brighved221@gmail.com" }
 ]
-requires-python = ">=3.14"
+requires-python = ">=3.11"
 dependencies = [
     "numpy",
     "pandas",
@@ -20,6 +20,9 @@ dev = [
     "notebook",
     "ipykernel",
 ]
+
+[tool.poetry]
+package-mode = false
 
 [tool.uv]
 package = false
