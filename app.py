@@ -183,14 +183,3 @@ if classify_clicked:
             unsafe_allow_html=True,
         )
 
-# ──────────────────────────────────────────────
-# Footer info
-# ──────────────────────────────────────────────
-st.markdown(
-    """
-    <div class="info-section">
-        Model: TF-IDF (char 3-5 grams) + Logistic Regression
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
